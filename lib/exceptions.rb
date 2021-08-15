@@ -1,0 +1,2 @@
+class InngestException < Exception; end
+
