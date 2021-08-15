@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = s.summary
   s.authors = ["Inngest, inc."]
   s.email = 'eng@inngest.com'
-  s.files = ["lib/inngest.rb"]
+  s.files = Dir.glob("lib/**/*") + %w(LICENSE.md README.md)
   s.homepage = 'https://github.com/inngest/inngest-ruby'
   s.license = 'MIT'
 end
