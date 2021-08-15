@@ -29,11 +29,12 @@ client.send event
 Or, even simpler, without creating an `Inngest::Event`:
 
 ```ruby
-client.send {
-  name: "user.upgraded",
-  data: {
-    "plan" => "paid",
+client.send({
+    name: "user.upgraded",
+    data: {
+      "plan" => "paid",
+    }
   }
-}
+)
 ```
 
